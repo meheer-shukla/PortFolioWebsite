@@ -1,0 +1,101 @@
+body {
+                background-color: #121417;
+                font-family: 'Manrope', 'Noto Sans', sans-serif;
+                color: white;
+            }
+      .btn-theme {
+        background-color: #283039;
+        color: white;
+        font-weight: 700;
+      }
+      .border-bottom-custom {
+        border-bottom: 1px solid #2b3036;
+      }
+
+      .profile-img {
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+        min-width: 700px;
+        min-height: 700px;
+      }
+      .navbar,
+      .form-control,
+      .btn,
+      .form-control::placeholder {
+        transition: all 0.3s ease;
+      }
+      .navbar {
+        border-bottom: 1px solid #2b3036;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: #fff;
+      }
+      .nav-link:hover {
+        color: #d2e2f3;
+      }
+      .btn-icon {
+        background-color: #2b3036;
+        border: none;
+        color: white;
+        border-radius: 999px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .form-control {
+        background-color: #1d2125;
+        border: 1px solid #3f4750;
+        color: #fff;
+        padding: 15px;
+        border-radius: 1rem;
+      }
+      .form-control::placeholder {
+        color: #a1abb5;
+      }
+      .btn-send {
+        background-color: #d2e2f3;
+        color: #121417;
+        font-weight: bold;
+        border-radius: 999px;
+        padding: 0.5rem 1.5rem;
+      }
+      .footer-text {
+        color: #a1abb5;
+      }
+
+      .profile-picture {
+        background-image: url("/Images/photo_2025-06-22_22-25-11.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+      }
+      .text-light-gray {
+        color: #a1abb5;
+      }
+      .border-dark-gray {
+        border-color: #3f4750;
+      }
+      .bg-dark-blue {
+        background-color: #1d2125;
+      }
+      .btn-primary-custom {
+        background-color: #d2e2f3;
+        color: #121417;
+        font-weight: bold;
+      }
+      .btn-secondary-custom {
+        background-color: #2b3036;
+        color: white;
+        font-weight: bold;
+      }
+      .timeline-line {
+        width: 1.5px;
+        background-color: #3f4750;
+      }
